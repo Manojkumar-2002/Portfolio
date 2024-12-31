@@ -1,0 +1,83 @@
+/* Ensure the particles canvas is behind all other content */
+.particles-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* This ensures that particles are behind other content */
+}
+
+
+.App {
+    position: relative;
+    z-index: 1;
+    color: white;
+    /* to make the text visible on top of the background */
+}
+
+/* Custom styles for the cards */
+.card {
+    /* Dark background for the cards */
+    color: white !important;
+    /* Ensures all text inside the card is white */
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-body {
+    color: white !important;
+    /* Ensures text inside card body is white */
+}
+
+.card-footer {
+    /* Dark footer background */
+    color: white !important;
+}
+
+/* Hover effect for zoom */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Custom list bullets */
+.card ul.list-unstyled {
+    padding-left: 20px;
+    /* Adjust the padding for bullet alignment */
+}
+
+.card ul.list-unstyled li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.card ul.list-unstyled li::before {
+    content: "•";
+    /* Custom bullet point */
+    color: #28a745;
+    /* Green color for bullet points */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.glass {
+    
+    /* Semi-transparent background */
+    border-radius: 15px;
+    /* Rounded corners */
+    backdrop-filter: blur(10px);
+    /* Apply background blur */
+    -webkit-backdrop-filter: blur(10px);
+    /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Light border */
+    /* Optional shadow for depth */
+    padding: 20px;
+    /* Space inside the container */
+    color: white;
+    /* Text color */
+    text-align: center;
+    /* Center the text */
+    box-shadow: 0 0px 10px 5px rgba(170, 155, 155, 0.37);
+}

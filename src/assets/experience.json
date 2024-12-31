@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Full Stack Developer Intern",
+        "company": "AK INFOPARK",
+        "location": "Nagercoil-TN",
+        "dates": "Feb 15, 2024 – Mar 15, 2024",
+        "responsibilities": [
+            "Developed an eCommerce web application using React, PHP, and MySQL.",
+            "Implemented responsive frontend components with React and Bootstrap, focusing on user experience.",
+            "Gained hands-on experience in integrating backend services and managing databases."
+        ]
+    },
+    {
+        "title": "Python Developer Intern",
+        "company": "MNK Global Services",
+        "location": "Remote",
+        "dates": "Nov 2024 – Present",
+        "responsibilities": [
+            "Developing and maintaining backend services using Python and Django.",
+            "Working with databases (SQL/NoSQL) for data storage and retrieval.",
+            "Collaborating with front-end developers to integrate APIs and enhance user experience."
+        ]
+    }
+]
